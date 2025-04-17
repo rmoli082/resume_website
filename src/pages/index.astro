@@ -1,12 +1,12 @@
 ---
+import ProfessionalSummary from '../components/ProfessionalSummary.astro';
+import ResumeHeader from '../components/ResumeHeader.astro';
 import Layout from '../layouts/Layout.astro';
 
 const pageTitle = "Home";
 ---
 
 <Layout pageTitle={pageTitle}>
-	<h1>
-		{pageTitle}
-	</h1>
-
+	<ResumeHeader />
+	<ProfessionalSummary />
 </Layout>
