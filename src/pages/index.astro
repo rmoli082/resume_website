@@ -1,6 +1,8 @@
 ---
+import ProfessionalExperience from '../components/ProfessionalExperience.astro';
 import ProfessionalSummary from '../components/ProfessionalSummary.astro';
 import ResumeHeader from '../components/ResumeHeader.astro';
+import SkillsCerts from '../components/SkillsCerts.astro';
 import Layout from '../layouts/Layout.astro';
 
 const pageTitle = "Home";
@@ -9,4 +11,6 @@ const pageTitle = "Home";
 <Layout pageTitle={pageTitle}>
 	<ResumeHeader />
 	<ProfessionalSummary />
+	<ProfessionalExperience />
+	<SkillsCerts />
 </Layout>

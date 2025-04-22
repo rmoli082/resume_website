@@ -39,6 +39,12 @@
         width: 100%;
     }
 
+    .half-width {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
     .third-width {
         display: flex;
         flex-wrap: wrap;
